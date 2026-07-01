@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mxo4-sigcapture"
+version = "0.2.0"
+description = "R&S MXO4 remote control and signal capture"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+visa = ["pyvisa>=1.13", "pyvisa-py>=0.7"]
+plot = ["matplotlib>=3.8"]
+hdf5 = ["h5py>=3.10"]
+gui = [
+    "pyside6>=6.6",
+    "h5py>=3.10",
+    "matplotlib>=3.8",
+]
+rs = ["RsInstrument>=1.53"]
+dev = ["mxo4-sigcapture[visa,gui,hdf5,plot]"]
+
+[project.scripts]
+mxo4-scpi = "mxo4_sigcapture.scpi.cli:main"
+mxo4-gui = "mxo4_sigcapture.apps.gui.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"mxo4_sigcapture.scpi.data" = ["*.json"]

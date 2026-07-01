@@ -1,0 +1,36 @@
+"""MXO4 SigCapture GUI theme tokens."""
+
+from __future__ import annotations
+
+BG = "#1e1e1e"
+PANEL = "#2a2a2a"
+BORDER = "#444444"
+TEXT = "#e0e0e0"
+TEXT_DIM = "#999999"
+ACCENT = "#3399FF"
+ERROR = "#FF4444"
+WARNING = "#FFAA00"
+REMOTE = "#CC6600"
+MONO_FAMILY = "Consolas, Courier New, monospace"
+BODY_PT = 11
+
+CHANNEL_COLOURS = {
+    1: "#FFCC00",
+    2: "#00CC66",
+    3: "#3399FF",
+    4: "#FF66CC",
+}
+
+CHANNEL_LABELS = {1: "C1", 2: "C2", 3: "C3", 4: "C4"}
+
+RIGHT_DOCK_WIDTH = 380
+RIGHT_DOCK_MIN_WIDTH = 340
+RIGHT_DOCK_MAX_WIDTH = 480
+CHANNEL_STRIP_HEIGHT = 268
+CHANNEL_CELL_MIN_WIDTH = 90
+CHANNEL_CELL_MAX_WIDTH = 0  # 0 = no cap; cells share dock width equally
+CHANNEL_HEADER_PT = 13
+CHANNEL_BODY_PT = 11
+CHANNEL_SCALE_VALUE_PT = 15
+CHANNEL_SCALE_UNIT_PT = 9
+TOOLBAR_BTN_PRIMARY_MIN_WIDTH = 80

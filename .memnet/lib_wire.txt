@@ -1,0 +1,47 @@
+@MOD: MOD_scpi_lib|src/mxo4_sigcapture/scpi|MXO4 SCPI catalog session recipes|active|persistent
+@EDG: E_lib_01|TSK_mxo4_scpi_snap|owns|MOD_scpi_lib|python_lib|persistent
+@EDG: E_lib_02|MOD_scpi_lib|implements|IDX_mxo4_scpi_all|catalog|persistent
+@USR: USR_scpi_conv_default_usage|convention|set and query unless stated otherwise|active|persistent
+@USR: USR_scpi_conv_sync|convention|Use *OPC or *WAI after overlapping/async commands|active|persistent
+@USR: USR_scpi_conv_reset|convention|*RST restores defaults noted per command; does not reset waveform generator (use WGENerator<wg>:PRESet)|active|persistent
+@USR: USR_scpi_conv_short_form|convention|Manual examples use short headers (e.g. CHAN1:STAT); full form is CHANnel<ch>:STATe|active|persistent
+@USR: USR_recipe_identify|recipe|Identify instrument: *IDN?|active|persistent
+@EDG: E_lib_03|MOD_scpi_lib|documents|USR_recipe_identify|howto|persistent
+@USR: USR_recipe_reset|recipe|Reset to defaults: *RST; *OPC?|active|persistent
+@EDG: E_lib_04|MOD_scpi_lib|documents|USR_recipe_reset|howto|persistent
+@USR: USR_recipe_continuous_acquire|recipe|Start continuous acquisition: RUN|active|persistent
+@EDG: E_lib_05|MOD_scpi_lib|documents|USR_recipe_continuous_acquire|howto|persistent
+@USR: USR_recipe_single_acquire|recipe|Single acquisition: ACQuire:COUNt 1; RUNSingle; *OPC?|active|persistent
+@EDG: E_lib_06|MOD_scpi_lib|documents|USR_recipe_single_acquire|howto|persistent
+@USR: USR_recipe_stop_acquire|recipe|Stop acquisition: STOP|active|persistent
+@EDG: E_lib_07|MOD_scpi_lib|documents|USR_recipe_stop_acquire|howto|persistent
+@USR: USR_recipe_enable_channel|recipe|Enable analog channel n (1-4): CHAN{n}:STAT 1|active|persistent
+@EDG: E_lib_08|MOD_scpi_lib|documents|USR_recipe_enable_channel|howto|persistent
+@USR: USR_recipe_vertical_setup|recipe|Channel vertical scale and offset: CHAN{n}:SCAL {volts_per_div}; CHAN{n}:OFFS {offset_v}|active|persistent
+@EDG: E_lib_09|MOD_scpi_lib|documents|USR_recipe_vertical_setup|howto|persistent
+@USR: USR_recipe_horizontal_setup|recipe|Timebase scale and position: TIM:SCAL {seconds_per_div}; TIM:HOR:POS {position_s}|active|persistent
+@EDG: E_lib_10|MOD_scpi_lib|documents|USR_recipe_horizontal_setup|howto|persistent
+@USR: USR_recipe_ascii_waveform|recipe|Configure ASCII waveform transfer: FORM:DATA ASC,0; CHAN{n}:DATA:HEAD?; CHAN{n}:DATA?|active|persistent
+@EDG: E_lib_11|MOD_scpi_lib|documents|USR_recipe_ascii_waveform|howto|persistent
+@USR: USR_recipe_binary_waveform|recipe|Configure binary REAL32 waveform transfer: FORM:DATA REAL,32; CHAN{n}:DATA:HEAD?; CHAN{n}:DATA?|active|persistent
+@EDG: E_lib_12|MOD_scpi_lib|documents|USR_recipe_binary_waveform|howto|persistent
+@USR: USR_recipe_autoscale|recipe|Autoscale all enabled channels: AUToscale|active|persistent
+@EDG: E_lib_13|MOD_scpi_lib|documents|USR_recipe_autoscale|howto|persistent
+@USR: USR_recipe_trigger_edge|recipe|Edge trigger on channel n: TRIG:MODE NORM; TRIG:EVEN1:SOUR C{n}; TRIG:EVEN1:TYPE EDGE; TRIG:EVEN1:LEV1 {level_v}|active|persistent
+@EDG: E_lib_14|MOD_scpi_lib|documents|USR_recipe_trigger_edge|howto|persistent
+@USR: USR_recipe_smartgrid_zoom|recipe|SmartGrid layout with zoom (manual 17.4.1): CHAN1:STAT 1; CHAN2:STAT 1; CHAN3:STAT 1; LAY:DIAG2:ENAB 1; LAY:DIAG2:SOUR C2; LAY:DIAG3:ENAB 1; LAY:DIAG3:SOUR C3; LAY:NODE2:ENAB 1; LAY:NODE2:CHIL1:CONT:TYPE DIAG; LAY:NODE2:CHIL1:CONT:ID 2; LAY:NODE2:CHIL2:CONT:TYPE DIAG; LAY:NODE2:CHIL2:CONT:ID 3; LAY:NODE2:STYP VERT; LAY:NODE1:CHIL2:CONT:TYPE NODE; LAY:NODE1:CHIL2:CONT:ID 2; LAY:NODE1:STYP HOR; LAY:ZOOM:ENAB 1; LAY:ZOOM:SOUR 3|active|persistent
+@EDG: E_lib_15|MOD_scpi_lib|documents|USR_recipe_smartgrid_zoom|howto|persistent
+@MOD: MOD_capture|src/mxo4_sigcapture/capture|Waveform capture setup fetch service|active|persistent
+@MOD: MOD_config|src/mxo4_sigcapture/config|Typed AppConfig vertical horizontal acquire trigger|active|persistent
+@MOD: MOD_storage|src/mxo4_sigcapture/storage|HDF5 capture writer loader|active|persistent
+@MOD: MOD_gui|src/mxo4_sigcapture/apps/gui|PySide6 MXO-inspired capture panel|active|persistent
+@EDG: E_lib_16|MOD_scpi_lib|owns|MOD_capture|pipeline|persistent
+@EDG: E_lib_17|MOD_capture|uses|MOD_config|setup|persistent
+@EDG: E_lib_18|MOD_capture|writes|MOD_storage|hdf5|persistent
+@EDG: E_lib_19|MOD_gui|drives|MOD_capture|controller|persistent
+@USR: USR_recipe_capture_once|recipe|Single-shot binary: STOP FORMat REAL32 RUNsingle WAVeform1 DATA|active|persistent
+@EDG: E_lib_20|MOD_scpi_lib|documents|USR_recipe_capture_once|howto|persistent
+@USR: USR_recipe_apply_setup|recipe|Expert-ordered setup channels acquire horizontal trigger|active|persistent
+@EDG: E_lib_21|MOD_scpi_lib|documents|USR_recipe_apply_setup|howto|persistent
+@USR: USR_recipe_connect_preamble|recipe|Connect preamble CLS DISP UPD IDN OPT ERR|active|persistent
+@EDG: E_lib_22|MOD_scpi_lib|documents|USR_recipe_connect_preamble|howto|persistent

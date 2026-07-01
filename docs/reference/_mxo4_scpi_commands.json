@@ -1,0 +1,3686 @@
+{
+  "count": 909,
+  "commands": [
+    {
+      "name": "*CAL?",
+      "page": 358
+    },
+    {
+      "name": "*CLS",
+      "page": 358
+    },
+    {
+      "name": "*IDN?",
+      "page": 358
+    },
+    {
+      "name": "*OPC",
+      "page": 358
+    },
+    {
+      "name": "*OPT?",
+      "page": 358
+    },
+    {
+      "name": "*RCL",
+      "page": 359
+    },
+    {
+      "name": "*RST",
+      "page": 359
+    },
+    {
+      "name": "*SAV",
+      "page": 359
+    },
+    {
+      "name": "*SRE",
+      "page": 359
+    },
+    {
+      "name": "*STB?",
+      "page": 360
+    },
+    {
+      "name": "*TRG",
+      "page": 360
+    },
+    {
+      "name": "*WAI",
+      "page": 360
+    },
+    {
+      "name": "ACQuire:AVAilable?",
+      "page": 387
+    },
+    {
+      "name": "ACQuire:AVERage?",
+      "page": 387
+    },
+    {
+      "name": "ACQuire:COUNt",
+      "page": 387
+    },
+    {
+      "name": "ACQuire:CURRent?",
+      "page": 388
+    },
+    {
+      "name": "ACQuire:HISTory:CURRent",
+      "page": 451
+    },
+    {
+      "name": "ACQuire:HISTory:PLAY",
+      "page": 451
+    },
+    {
+      "name": "ACQuire:HISTory:REPLay",
+      "page": 451
+    },
+    {
+      "name": "ACQuire:HISTory:STARt",
+      "page": 452
+    },
+    {
+      "name": "ACQuire:HISTory:STOP",
+      "page": 452
+    },
+    {
+      "name": "ACQuire:HISTory:TPACq",
+      "page": 452
+    },
+    {
+      "name": "ACQuire:HISTory:TSABsolute?",
+      "page": 452
+    },
+    {
+      "name": "ACQuire:HISTory:TSDate?",
+      "page": 453
+    },
+    {
+      "name": "ACQuire:HISTory:TSRelative?",
+      "page": 453
+    },
+    {
+      "name": "ACQuire:HISTory:TSRReference?",
+      "page": 453
+    },
+    {
+      "name": "ACQuire:HISTory[:STATe]",
+      "page": 453
+    },
+    {
+      "name": "ACQuire:INTerpolate",
+      "page": 388
+    },
+    {
+      "name": "ACQuire:POINts:ARATe?",
+      "page": 388
+    },
+    {
+      "name": "ACQuire:POINts:MAXimum",
+      "page": 389
+    },
+    {
+      "name": "ACQuire:POINts:MODE",
+      "page": 389
+    },
+    {
+      "name": "ACQuire:POINts[:VALue]",
+      "page": 388
+    },
+    {
+      "name": "ACQuire:RESolution",
+      "page": 389
+    },
+    {
+      "name": "ACQuire:SEGMented:MAX",
+      "page": 391
+    },
+    {
+      "name": "ACQuire:SEGMented:STATe",
+      "page": 391
+    },
+    {
+      "name": "ACQuire:SRATe:MINimum",
+      "page": 390
+    },
+    {
+      "name": "ACQuire:SRATe:MODE",
+      "page": 390
+    },
+    {
+      "name": "ACQuire:SRATe[:VALue]",
+      "page": 390
+    },
+    {
+      "name": "ACQuire:SRReal",
+      "page": 391
+    },
+    {
+      "name": "ACQuire:TYPE",
+      "page": 391
+    },
+    {
+      "name": "AUToscale",
+      "page": 378
+    },
+    {
+      "name": "CALCulate:MATH<m>:DATA:HEADer?",
+      "page": 449
+    },
+    {
+      "name": "CALCulate:MATH<m>:DATA:STYPe?",
+      "page": 450
+    },
+    {
+      "name": "CALCulate:MATH<m>:DATA[:VALues]?",
+      "page": 450
+    },
+    {
+      "name": "CALCulate:MATH<m>:ENVSelection",
+      "page": 449
+    },
+    {
+      "name": "CALCulate:MATH<m>:STATe",
+      "page": 447
+    },
+    {
+      "name": "CALCulate:MATH<m>:VERTical:OFFSet",
+      "page": 448
+    },
+    {
+      "name": "CALCulate:MATH<m>:VERTical:SCALe:MODE",
+      "page": 449
+    },
+    {
+      "name": "CALCulate:MATH<m>:VERTical:SCALe[:VALue]",
+      "page": 448
+    },
+    {
+      "name": "CALCulate:MATH<m>[:EXPRession][:DEFine]",
+      "page": 448
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:BANDwidth[:RESolution]:AUTO",
+      "page": 503
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:BANDwidth[:RESolution]:RATio",
+      "page": 503
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:BANDwidth[:RESolution][:VALue]",
+      "page": 503
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:CENTer",
+      "page": 504
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:SCALe",
+      "page": 504
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:SPAN",
+      "page": 504
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:STARt",
+      "page": 505
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:STOP",
+      "page": 505
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:FREQuency:WINDow:TYPE",
+      "page": 505
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:GATE:POSition",
+      "page": 510
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:GATE:STARt",
+      "page": 511
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:GATE:STOP",
+      "page": 511
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:GATE:WIDTh",
+      "page": 511
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:MAGNitude:LEVel",
+      "page": 506
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:MAGNitude:RANGe",
+      "page": 507
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:MAGNitude:SCALe",
+      "page": 507
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PEXCursion",
+      "page": 508
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PLISt:LABel:BORDer",
+      "page": 372
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PLISt:LABel:FREQuency[:STATe]",
+      "page": 512
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PLISt:LABel:MAXCount",
+      "page": 512
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PLISt:MAXCount",
+      "page": 512
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PLISt:MODE",
+      "page": 513
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PLISt:SOURce",
+      "page": 513
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PLISt[:STATe]",
+      "page": 513
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:PRESet",
+      "page": 507
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:SOURce",
+      "page": 507
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:STATe",
+      "page": 508
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:THReshold",
+      "page": 508
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:AVERage:COUNt",
+      "page": 509
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:AVERage:DATA:HEADer?",
+      "page": 514
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:AVERage:DATA[:VALues]",
+      "page": 514
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:AVERage:ENABle",
+      "page": 509
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:MAXimum:DATA:HEADer?",
+      "page": 514
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:MAXimum:DATA[:VALues]",
+      "page": 514
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:MAXimum:ENABle",
+      "page": 509
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:MINimum:DATA:HEADer?",
+      "page": 514
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:MINimum:DATA[:VALues]",
+      "page": 514
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:MINimum:ENABle",
+      "page": 510
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:NORMal:DATA:HEADer?",
+      "page": 514
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:NORMal:DATA[:VALues]?",
+      "page": 514
+    },
+    {
+      "name": "CALCulate:SPECtrum<sp>:WAVeform:NORMal[:ENABle]",
+      "page": 510
+    },
+    {
+      "name": "CALibration:DATE?",
+      "page": 376
+    },
+    {
+      "name": "CALibration:RESult?",
+      "page": 377
+    },
+    {
+      "name": "CALibration:TIME?",
+      "page": 376
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:NCLipping:CONDition?",
+      "page": 633
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:NCLipping:ENABle",
+      "page": 633
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:NCLipping:NTRansition",
+      "page": 634
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:NCLipping:PTRansition",
+      "page": 634
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:NCLipping[:EVENt]?",
+      "page": 634
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:PCLipping:CONDition?",
+      "page": 633
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:PCLipping:ENABle",
+      "page": 633
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:PCLipping:NTRansition",
+      "page": 634
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:PCLipping:PTRansition",
+      "page": 634
+    },
+    {
+      "name": "CHANnel<ch>:ADCState:STATus:PCLipping[:EVENt]?",
+      "page": 634
+    },
+    {
+      "name": "CHANnel<ch>:BANDwidth",
+      "page": 383
+    },
+    {
+      "name": "CHANnel<ch>:COUPling",
+      "page": 382
+    },
+    {
+      "name": "CHANnel<ch>:EATScale",
+      "page": 384
+    },
+    {
+      "name": "CHANnel<ch>:EATTenuation",
+      "page": 384
+    },
+    {
+      "name": "CHANnel<ch>:IMPedance",
+      "page": 384
+    },
+    {
+      "name": "CHANnel<ch>:INVert",
+      "page": 382
+    },
+    {
+      "name": "CHANnel<ch>:OFFSet",
+      "page": 381
+    },
+    {
+      "name": "CHANnel<ch>:OVERload:STATus:CONDition?",
+      "page": 634
+    },
+    {
+      "name": "CHANnel<ch>:OVERload:STATus:ENABle",
+      "page": 635
+    },
+    {
+      "name": "CHANnel<ch>:OVERload:STATus:NTRansition",
+      "page": 635
+    },
+    {
+      "name": "CHANnel<ch>:OVERload:STATus:PTRansition",
+      "page": 635
+    },
+    {
+      "name": "CHANnel<ch>:OVERload:STATus[:EVENt]",
+      "page": 635
+    },
+    {
+      "name": "CHANnel<ch>:POSition",
+      "page": 381
+    },
+    {
+      "name": "CHANnel<ch>:RANGe",
+      "page": 381
+    },
+    {
+      "name": "CHANnel<ch>:SCALe",
+      "page": 380
+    },
+    {
+      "name": "CHANnel<ch>:SKEW:TIME",
+      "page": 383
+    },
+    {
+      "name": "CHANnel<ch>:STATe",
+      "page": 380
+    },
+    {
+      "name": "CHANnel<ch>:WARNoverload:STATus[:EVENt]?",
+      "page": 635
+    },
+    {
+      "name": "CHANnel<ch>[:WAVeform<wf>]:DATA:HEADer?",
+      "page": 385
+    },
+    {
+      "name": "CHANnel<ch>[:WAVeform<wf>]:DATA[:VALues]?",
+      "page": 385
+    },
+    {
+      "name": "CURSor<cu>:AOFF",
+      "page": 492
+    },
+    {
+      "name": "CURSor<cu>:COUNt?",
+      "page": 492
+    },
+    {
+      "name": "CURSor<cu>:FFT:SETCenter",
+      "page": 499
+    },
+    {
+      "name": "CURSor<cu>:FFT:TOCenter",
+      "page": 500
+    },
+    {
+      "name": "CURSor<cu>:FUNCtion",
+      "page": 493
+    },
+    {
+      "name": "CURSor<cu>:LABel",
+      "page": 496
+    },
+    {
+      "name": "CURSor<cu>:MAXimum:LEFT",
+      "page": 500
+    },
+    {
+      "name": "CURSor<cu>:MAXimum:NEXT",
+      "page": 501
+    },
+    {
+      "name": "CURSor<cu>:MAXimum:RIGHt",
+      "page": 500
+    },
+    {
+      "name": "CURSor<cu>:MAXimum[:PEAK]",
+      "page": 500
+    },
+    {
+      "name": "CURSor<cu>:PEXCursion",
+      "page": 501
+    },
+    {
+      "name": "CURSor<cu>:SIAD",
+      "page": 496
+    },
+    {
+      "name": "CURSor<cu>:SOURce",
+      "page": 493
+    },
+    {
+      "name": "CURSor<cu>:SSOurce",
+      "page": 494
+    },
+    {
+      "name": "CURSor<cu>:STATe",
+      "page": 493
+    },
+    {
+      "name": "CURSor<cu>:STYLe",
+      "page": 501
+    },
+    {
+      "name": "CURSor<cu>:THReshold",
+      "page": 501
+    },
+    {
+      "name": "CURSor<cu>:TRACking[:STATe]",
+      "page": 496
+    },
+    {
+      "name": "CURSor<cu>:USSource",
+      "page": 494
+    },
+    {
+      "name": "CURSor<cu>:X1ENvelope",
+      "page": 497
+    },
+    {
+      "name": "CURSor<cu>:X1Position",
+      "page": 494
+    },
+    {
+      "name": "CURSor<cu>:X2ENvelope",
+      "page": 497
+    },
+    {
+      "name": "CURSor<cu>:X2Position",
+      "page": 495
+    },
+    {
+      "name": "CURSor<cu>:XCOupling",
+      "page": 497
+    },
+    {
+      "name": "CURSor<cu>:XDELta:INVerse?",
+      "page": 498
+    },
+    {
+      "name": "CURSor<cu>:XDELta[:VALue]?",
+      "page": 498
+    },
+    {
+      "name": "CURSor<cu>:Y1Position",
+      "page": 495
+    },
+    {
+      "name": "CURSor<cu>:Y2Position",
+      "page": 495
+    },
+    {
+      "name": "CURSor<cu>:YCOupling",
+      "page": 497
+    },
+    {
+      "name": "CURSor<cu>:YDELta:SLOPe",
+      "page": 499
+    },
+    {
+      "name": "CURSor<cu>:YDELta[:VALue]?",
+      "page": 499
+    },
+    {
+      "name": "DIAGnostic:SERVice:COMPutername",
+      "page": 362
+    },
+    {
+      "name": "DIGital<m>:DATA:HEADer?",
+      "page": 604
+    },
+    {
+      "name": "DIGital<m>:DATA[:VALues]",
+      "page": 604
+    },
+    {
+      "name": "DIGital<m>:LABel",
+      "page": 595
+    },
+    {
+      "name": "DIGital<m>:SIZE",
+      "page": 595
+    },
+    {
+      "name": "DIGital<m>:SKEW",
+      "page": 596
+    },
+    {
+      "name": "DIGital<m>:STATe",
+      "page": 596
+    },
+    {
+      "name": "DIGital<m>:TECHnology",
+      "page": 596
+    },
+    {
+      "name": "DIGital<m>:THCoupling",
+      "page": 597
+    },
+    {
+      "name": "DIGital<m>:THReshold",
+      "page": 597
+    },
+    {
+      "name": "DISPlay:COLor:SIGNal:ASSign",
+      "page": 370
+    },
+    {
+      "name": "DISPlay:COLor:SIGNal:CATalog?",
+      "page": 369
+    },
+    {
+      "name": "DISPlay:COLor:SIGNal:COLor",
+      "page": 369
+    },
+    {
+      "name": "DISPlay:COLor:SIGNal:USE",
+      "page": 370
+    },
+    {
+      "name": "DISPlay:DIAGram:CROSshair",
+      "page": 370
+    },
+    {
+      "name": "DISPlay:DIAGram:FINegrid",
+      "page": 371
+    },
+    {
+      "name": "DISPlay:DIAGram:GRID",
+      "page": 371
+    },
+    {
+      "name": "DISPlay:DIAGram:LABels",
+      "page": 371
+    },
+    {
+      "name": "DISPlay:DIAGram:STYLe",
+      "page": 374
+    },
+    {
+      "name": "DISPlay:DIAGram:YFIXed",
+      "page": 371
+    },
+    {
+      "name": "DISPlay:INTensity",
+      "page": 373
+    },
+    {
+      "name": "DISPlay:PERSistence:INFinite",
+      "page": 372
+    },
+    {
+      "name": "DISPlay:PERSistence:RESet",
+      "page": 372
+    },
+    {
+      "name": "DISPlay:PERSistence:TIME",
+      "page": 373
+    },
+    {
+      "name": "DISPlay:PERSistence[:STATe]",
+      "page": 373
+    },
+    {
+      "name": "EXPort:RESult:DELimiter",
+      "page": 376
+    },
+    {
+      "name": "EXPort:RESult:NAME",
+      "page": 471
+    },
+    {
+      "name": "EXPort:RESult:SAVE",
+      "page": 472
+    },
+    {
+      "name": "EXPort:RESult:SELect:CURSor",
+      "page": 472
+    },
+    {
+      "name": "EXPort:RESult:SELect:MEASurement",
+      "page": 472
+    },
+    {
+      "name": "EXPort:WAVeform:CURSorset",
+      "page": 471
+    },
+    {
+      "name": "EXPort:WAVeform:GATE",
+      "page": 471
+    },
+    {
+      "name": "EXPort:WAVeform:NAME",
+      "page": 469
+    },
+    {
+      "name": "EXPort:WAVeform:SAVE",
+      "page": 469
+    },
+    {
+      "name": "EXPort:WAVeform:SCOPe",
+      "page": 469
+    },
+    {
+      "name": "EXPort:WAVeform:SOURce",
+      "page": 470
+    },
+    {
+      "name": "EXPort:WAVeform:STARt",
+      "page": 470
+    },
+    {
+      "name": "EXPort:WAVeform:STOP",
+      "page": 470
+    },
+    {
+      "name": "FORMat:BPATtern",
+      "page": 361
+    },
+    {
+      "name": "FORMat[:DATA]",
+      "page": 360
+    },
+    {
+      "name": "FRANalysis:AMPLitude:ENABle",
+      "page": 524
+    },
+    {
+      "name": "FRANalysis:AMPLitude:MODE",
+      "page": 516
+    },
+    {
+      "name": "FRANalysis:AMPLitude:OFFSet",
+      "page": 524
+    },
+    {
+      "name": "FRANalysis:AMPLitude:PROFile:APOint",
+      "page": 521
+    },
+    {
+      "name": "FRANalysis:AMPLitude:PROFile:COUNt",
+      "page": 520
+    },
+    {
+      "name": "FRANalysis:AMPLitude:PROFile:MODE",
+      "page": 521
+    },
+    {
+      "name": "FRANalysis:AMPLitude:PROFile:POINt<m>:AMPLitude",
+      "page": 522
+    },
+    {
+      "name": "FRANalysis:AMPLitude:PROFile:POINt<m>:FREQuency",
+      "page": 522
+    },
+    {
+      "name": "FRANalysis:AMPLitude:PROFile:POINt<m>:REMove",
+      "page": 521
+    },
+    {
+      "name": "FRANalysis:AMPLitude:PROFile:SORT",
+      "page": 521
+    },
+    {
+      "name": "FRANalysis:AMPLitude:SCALe",
+      "page": 524
+    },
+    {
+      "name": "FRANalysis:ENABle",
+      "page": 516
+    },
+    {
+      "name": "FRANalysis:FREQuency:DATA?",
+      "page": 524
+    },
+    {
+      "name": "FRANalysis:FREQuency:STARt",
+      "page": 516
+    },
+    {
+      "name": "FRANalysis:FREQuency:STOP",
+      "page": 516
+    },
+    {
+      "name": "FRANalysis:GAIN:DATA?",
+      "page": 523
+    },
+    {
+      "name": "FRANalysis:GAIN:ENABle",
+      "page": 523
+    },
+    {
+      "name": "FRANalysis:GAIN:OFFSet",
+      "page": 523
+    },
+    {
+      "name": "FRANalysis:GAIN:SCALe",
+      "page": 524
+    },
+    {
+      "name": "FRANalysis:GENerator:AMPLitude",
+      "page": 516
+    },
+    {
+      "name": "FRANalysis:GENerator:LOAD",
+      "page": 517
+    },
+    {
+      "name": "FRANalysis:GENerator[:CHANnel]",
+      "page": 517
+    },
+    {
+      "name": "FRANalysis:INPut[:SOURce]",
+      "page": 517
+    },
+    {
+      "name": "FRANalysis:MARGin:GAIN:FREQuency?",
+      "page": 525
+    },
+    {
+      "name": "FRANalysis:MARGin:GAIN:VALue?",
+      "page": 526
+    },
+    {
+      "name": "FRANalysis:MARGin:PHASe:FREQuency?",
+      "page": 526
+    },
+    {
+      "name": "FRANalysis:MARGin:PHASe:VALue?",
+      "page": 526
+    },
+    {
+      "name": "FRANalysis:MARGin:STATe",
+      "page": 525
+    },
+    {
+      "name": "FRANalysis:MARKer<m>:FREQuency",
+      "page": 526
+    },
+    {
+      "name": "FRANalysis:MARKer<m>:GAIN?",
+      "page": 527
+    },
+    {
+      "name": "FRANalysis:MARKer<m>:PHASe?",
+      "page": 527
+    },
+    {
+      "name": "FRANalysis:MARKer<m>:SSCReen",
+      "page": 527
+    },
+    {
+      "name": "FRANalysis:MARKer<m>:STATe",
+      "page": 526
+    },
+    {
+      "name": "FRANalysis:MEASurement:DELay:STATe",
+      "page": 517
+    },
+    {
+      "name": "FRANalysis:MEASurement:DELay[:TIME]",
+      "page": 518
+    },
+    {
+      "name": "FRANalysis:MEASurement:POINt[:DISPlay]",
+      "page": 518
+    },
+    {
+      "name": "FRANalysis:MEASurement:RBW",
+      "page": 518
+    },
+    {
+      "name": "FRANalysis:OUTPut[:SOURce]",
+      "page": 518
+    },
+    {
+      "name": "FRANalysis:PHASe:DATA?",
+      "page": 522
+    },
+    {
+      "name": "FRANalysis:PHASe:ENABle",
+      "page": 522
+    },
+    {
+      "name": "FRANalysis:PHASe:MAXimum",
+      "page": 520
+    },
+    {
+      "name": "FRANalysis:PHASe:OFFSet",
+      "page": 523
+    },
+    {
+      "name": "FRANalysis:PHASe:SCALe",
+      "page": 523
+    },
+    {
+      "name": "FRANalysis:POINts:LOGarithmic",
+      "page": 519
+    },
+    {
+      "name": "FRANalysis:POINts:MODE",
+      "page": 519
+    },
+    {
+      "name": "FRANalysis:POINts:TOTal",
+      "page": 519
+    },
+    {
+      "name": "FRANalysis:REPeat",
+      "page": 520
+    },
+    {
+      "name": "FRANalysis:RESet",
+      "page": 520
+    },
+    {
+      "name": "FRANalysis:RESult:STATe",
+      "page": 525
+    },
+    {
+      "name": "FRANalysis:STATe",
+      "page": 515
+    },
+    {
+      "name": "GATE<m>:ABSolute:STARt",
+      "page": 486
+    },
+    {
+      "name": "GATE<m>:ABSolute:STOP",
+      "page": 486
+    },
+    {
+      "name": "GATE<m>:CURSor",
+      "page": 485
+    },
+    {
+      "name": "GATE<m>:ENABle",
+      "page": 485
+    },
+    {
+      "name": "GATE<m>:GCOupling",
+      "page": 485
+    },
+    {
+      "name": "GATE<m>:MODE",
+      "page": 486
+    },
+    {
+      "name": "GATE<m>:RELative:STARt",
+      "page": 487
+    },
+    {
+      "name": "GATE<m>:RELative:STOP",
+      "page": 487
+    },
+    {
+      "name": "GATE<m>:SHOW",
+      "page": 487
+    },
+    {
+      "name": "GATE<m>:ZDIagram",
+      "page": 486
+    },
+    {
+      "name": "GENerator:SYNC[:COMBination]",
+      "page": 623
+    },
+    {
+      "name": "HCOPy:CMAP<m>:DEFault",
+      "page": 474
+    },
+    {
+      "name": "HCOPy:DESTination<m>",
+      "page": 473
+    },
+    {
+      "name": "HCOPy:DEVice<m>:INVerse",
+      "page": 473
+    },
+    {
+      "name": "HCOPy:DEVice<m>:LANGuage",
+      "page": 473
+    },
+    {
+      "name": "HCOPy:IMMediate<m>:NEXT",
+      "page": 473
+    },
+    {
+      "name": "HCOPy:IMMediate<m>[:DUM]",
+      "page": 474
+    },
+    {
+      "name": "HCOPy:ISBA",
+      "page": 474
+    },
+    {
+      "name": "HCOPy:SSD",
+      "page": 474
+    },
+    {
+      "name": "HCOPy:WBKG",
+      "page": 474
+    },
+    {
+      "name": "HDEFinition:BWIDth",
+      "page": 405
+    },
+    {
+      "name": "HDEFinition:RESolution?",
+      "page": 406
+    },
+    {
+      "name": "HDEFinition:STATe",
+      "page": 406
+    },
+    {
+      "name": "LAYout<m>:ACTive",
+      "page": 365
+    },
+    {
+      "name": "LAYout<m>:COUNt?",
+      "page": 364
+    },
+    {
+      "name": "LAYout<m>:DIAGram<n>:COUNt?",
+      "page": 365
+    },
+    {
+      "name": "LAYout<m>:DIAGram<n>:LABel",
+      "page": 366
+    },
+    {
+      "name": "LAYout<m>:DIAGram<n>:SOURce",
+      "page": 366
+    },
+    {
+      "name": "LAYout<m>:DIAGram<n>[:ENABle]",
+      "page": 366
+    },
+    {
+      "name": "LAYout<m>:LABel",
+      "page": 365
+    },
+    {
+      "name": "LAYout<m>:NODE<n>:CHILdren<o>:CONTent<p>:ID",
+      "page": 367
+    },
+    {
+      "name": "LAYout<m>:NODE<n>:CHILdren<o>:CONTent<p>:TYPE",
+      "page": 368
+    },
+    {
+      "name": "LAYout<m>:NODE<n>:COUNt?",
+      "page": 367
+    },
+    {
+      "name": "LAYout<m>:NODE<n>:RATio",
+      "page": 368
+    },
+    {
+      "name": "LAYout<m>:NODE<n>:STYPe",
+      "page": 368
+    },
+    {
+      "name": "LAYout<m>:NODE<n>[:ENABle]",
+      "page": 367
+    },
+    {
+      "name": "LAYout<m>:SACTive",
+      "page": 365
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:COUNt?",
+      "page": 440
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:ABSolute:POSition",
+      "page": 440
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:ABSolute:SPAN",
+      "page": 440
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:ABSolute:STARt",
+      "page": 441
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:ABSolute:STOP",
+      "page": 441
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:ABSolute:WIDTh",
+      "page": 441
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:MODE",
+      "page": 442
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:RELative:POSition",
+      "page": 442
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:RELative:SPAN",
+      "page": 442
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:RELative:STARt",
+      "page": 443
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:RELative:STOP",
+      "page": 443
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:HORizontal:RELative:WIDTh",
+      "page": 443
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:SOURce",
+      "page": 444
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:ABSolute:POSition",
+      "page": 444
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:ABSolute:RANGe",
+      "page": 444
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:ABSolute:SPAN",
+      "page": 444
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:ABSolute:STARt",
+      "page": 445
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:ABSolute:STOP",
+      "page": 445
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:MODE",
+      "page": 445
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:RELative:POSition",
+      "page": 446
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:RELative:SPAN",
+      "page": 447
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:RELative:STARt",
+      "page": 446
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:RELative:STOP",
+      "page": 446
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>:VERTical:RELative:WIDTh",
+      "page": 447
+    },
+    {
+      "name": "LAYout<m>:ZOOM<n>[:ENABle]",
+      "page": 439
+    },
+    {
+      "name": "LAYout<m>[:ENABle]",
+      "page": 364
+    },
+    {
+      "name": "MEASurement<mg>:AMPTime:CSLope",
+      "page": 478
+    },
+    {
+      "name": "MEASurement<mg>:AMPTime:DELay<n>:DIRection",
+      "page": 479
+    },
+    {
+      "name": "MEASurement<mg>:AMPTime:DELay<n>:SLOPe",
+      "page": 480
+    },
+    {
+      "name": "MEASurement<mg>:AMPTime:DTOTrigger<n>:SLOPe",
+      "page": 479
+    },
+    {
+      "name": "MEASurement<mg>:AMPTime:ESLope",
+      "page": 478
+    },
+    {
+      "name": "MEASurement<mg>:AMPTime:PSLope",
+      "page": 479
+    },
+    {
+      "name": "MEASurement<mg>:AMPTime:PTCount",
+      "page": 478
+    },
+    {
+      "name": "MEASurement<mg>:CLEar",
+      "page": 483
+    },
+    {
+      "name": "MEASurement<mg>:COUNt?",
+      "page": 475
+    },
+    {
+      "name": "MEASurement<mg>:ENVSelect",
+      "page": 477
+    },
+    {
+      "name": "MEASurement<mg>:FSRC",
+      "page": 476
+    },
+    {
+      "name": "MEASurement<mg>:GATE",
+      "page": 487
+    },
+    {
+      "name": "MEASurement<mg>:IMPRecise:STATus:CONDition?",
+      "page": 629
+    },
+    {
+      "name": "MEASurement<mg>:IMPRecise:STATus:ENABle",
+      "page": 629
+    },
+    {
+      "name": "MEASurement<mg>:IMPRecise:STATus:NTRansition",
+      "page": 630
+    },
+    {
+      "name": "MEASurement<mg>:IMPRecise:STATus:PTRansition",
+      "page": 630
+    },
+    {
+      "name": "MEASurement<mg>:IMPRecise:STATus[:EVENt]?",
+      "page": 630
+    },
+    {
+      "name": "MEASurement<mg>:LIMit:STATus:CONDition?",
+      "page": 630
+    },
+    {
+      "name": "MEASurement<mg>:LIMit:STATus:ENABle",
+      "page": 631
+    },
+    {
+      "name": "MEASurement<mg>:LIMit:STATus:NTRansition",
+      "page": 631
+    },
+    {
+      "name": "MEASurement<mg>:LIMit:STATus:PTRansition",
+      "page": 631
+    },
+    {
+      "name": "MEASurement<mg>:LIMit:STATus[:EVENt]?",
+      "page": 631
+    },
+    {
+      "name": "MEASurement<mg>:MAIN",
+      "page": 477
+    },
+    {
+      "name": "MEASurement<mg>:MARGin:STATus:CONDition?",
+      "page": 632
+    },
+    {
+      "name": "MEASurement<mg>:MARGin:STATus:ENABle",
+      "page": 632
+    },
+    {
+      "name": "MEASurement<mg>:MARGin:STATus:NTRansition",
+      "page": 632
+    },
+    {
+      "name": "MEASurement<mg>:MARGin:STATus:PTRansition",
+      "page": 632
+    },
+    {
+      "name": "MEASurement<mg>:MARGin:STATus[:EVENt]?",
+      "page": 632
+    },
+    {
+      "name": "MEASurement<mg>:MNOMeas",
+      "page": 484
+    },
+    {
+      "name": "MEASurement<mg>:MULTiple",
+      "page": 484
+    },
+    {
+      "name": "MEASurement<mg>:RESult:AVG?",
+      "page": 480
+    },
+    {
+      "name": "MEASurement<mg>:RESult:EVENts:COUNt?",
+      "page": 481
+    },
+    {
+      "name": "MEASurement<mg>:RESult:EVENts:STARt?",
+      "page": 482
+    },
+    {
+      "name": "MEASurement<mg>:RESult:EVENts:STOP?",
+      "page": 482
+    },
+    {
+      "name": "MEASurement<mg>:RESult:EVENts:VALue?",
+      "page": 483
+    },
+    {
+      "name": "MEASurement<mg>:RESult:EVTCount?",
+      "page": 481
+    },
+    {
+      "name": "MEASurement<mg>:RESult:NPEak?",
+      "page": 480
+    },
+    {
+      "name": "MEASurement<mg>:RESult:PPEak?",
+      "page": 480
+    },
+    {
+      "name": "MEASurement<mg>:RESult:RELiability?",
+      "page": 481
+    },
+    {
+      "name": "MEASurement<mg>:RESult:RMS?",
+      "page": 481
+    },
+    {
+      "name": "MEASurement<mg>:RESult:STARt?",
+      "page": 481
+    },
+    {
+      "name": "MEASurement<mg>:RESult:STDDev?",
+      "page": 481
+    },
+    {
+      "name": "MEASurement<mg>:RESult:STOP?",
+      "page": 481
+    },
+    {
+      "name": "MEASurement<mg>:RESult:WFMCount?",
+      "page": 481
+    },
+    {
+      "name": "MEASurement<mg>:RESult[:ACTual]?",
+      "page": 480
+    },
+    {
+      "name": "MEASurement<mg>:SOURce",
+      "page": 476
+    },
+    {
+      "name": "MEASurement<mg>:SSRC",
+      "page": 476
+    },
+    {
+      "name": "MEASurement<mg>:STATistics:RESet",
+      "page": 484
+    },
+    {
+      "name": "MEASurement<mg>:STATistics[:ENABle]",
+      "page": 483
+    },
+    {
+      "name": "MEASurement<mg>[:ENABle]",
+      "page": 475
+    },
+    {
+      "name": "MMEMory:ATTRibute",
+      "page": 467
+    },
+    {
+      "name": "MMEMory:AUSave:ENABle",
+      "page": 375
+    },
+    {
+      "name": "MMEMory:AUSave:INTerval",
+      "page": 375
+    },
+    {
+      "name": "MMEMory:AUTonaming:DEFaultpath",
+      "page": 375
+    },
+    {
+      "name": "MMEMory:AUTonaming:INDex",
+      "page": 374
+    },
+    {
+      "name": "MMEMory:AUTonaming:PREFix",
+      "page": 374
+    },
+    {
+      "name": "MMEMory:AUTonaming:RESall",
+      "page": 375
+    },
+    {
+      "name": "MMEMory:AUTonaming:RESPath",
+      "page": 376
+    },
+    {
+      "name": "MMEMory:AUTonaming:TEXT",
+      "page": 376
+    },
+    {
+      "name": "MMEMory:AUTonaming:TIME",
+      "page": 374
+    },
+    {
+      "name": "MMEMory:AUTonaming:USERtext",
+      "page": 375
+    },
+    {
+      "name": "MMEMory:CATalog:LENGth?",
+      "page": 465
+    },
+    {
+      "name": "MMEMory:CATalog?",
+      "page": 464
+    },
+    {
+      "name": "MMEMory:CDIRectory",
+      "page": 464
+    },
+    {
+      "name": "MMEMory:COPY",
+      "page": 465
+    },
+    {
+      "name": "MMEMory:DATA",
+      "page": 466
+    },
+    {
+      "name": "MMEMory:DCATalog:LENGth?",
+      "page": 463
+    },
+    {
+      "name": "MMEMory:DCATalog?",
+      "page": 463
+    },
+    {
+      "name": "MMEMory:DELete",
+      "page": 466
+    },
+    {
+      "name": "MMEMory:DRIVes?",
+      "page": 463
+    },
+    {
+      "name": "MMEMory:LOAD:STATe",
+      "page": 468
+    },
+    {
+      "name": "MMEMory:MDIRectory",
+      "page": 464
+    },
+    {
+      "name": "MMEMory:MOVE",
+      "page": 466
+    },
+    {
+      "name": "MMEMory:RCL",
+      "page": 467
+    },
+    {
+      "name": "MMEMory:RDIRectory",
+      "page": 464
+    },
+    {
+      "name": "MMEMory:SAV",
+      "page": 467
+    },
+    {
+      "name": "MMEMory:STORe:STATe",
+      "page": 468
+    },
+    {
+      "name": "PBUS<m>:BIT<n>:LABel",
+      "page": 598
+    },
+    {
+      "name": "PBUS<m>:BIT<n>:SKEW",
+      "page": 598
+    },
+    {
+      "name": "PBUS<m>:BIT<n>[:STATe]",
+      "page": 598
+    },
+    {
+      "name": "PBUS<m>:CLEar",
+      "page": 599
+    },
+    {
+      "name": "PBUS<m>:CLOCk",
+      "page": 599
+    },
+    {
+      "name": "PBUS<m>:CLON",
+      "page": 599
+    },
+    {
+      "name": "PBUS<m>:CLSLope",
+      "page": 600
+    },
+    {
+      "name": "PBUS<m>:DATA:FORMat",
+      "page": 604
+    },
+    {
+      "name": "PBUS<m>:DATA:HEADer?",
+      "page": 605
+    },
+    {
+      "name": "PBUS<m>:DATA[:VALues]?",
+      "page": 605
+    },
+    {
+      "name": "PBUS<m>:DISPlay:SHBU",
+      "page": 600
+    },
+    {
+      "name": "PBUS<m>:DISPlay:SHDI",
+      "page": 600
+    },
+    {
+      "name": "PBUS<m>:HYSTeresis<n>",
+      "page": 601
+    },
+    {
+      "name": "PBUS<m>:SKEW",
+      "page": 601
+    },
+    {
+      "name": "PBUS<m>:STATe",
+      "page": 602
+    },
+    {
+      "name": "PBUS<m>:TECHnology",
+      "page": 602
+    },
+    {
+      "name": "PBUS<m>:THCoupling",
+      "page": 603
+    },
+    {
+      "name": "PBUS<m>:THReshold<n>",
+      "page": 603
+    },
+    {
+      "name": "PROBe<ch>:ID:PARTnumber?",
+      "page": 404
+    },
+    {
+      "name": "PROBe<ch>:ID:PRDate?",
+      "page": 404
+    },
+    {
+      "name": "PROBe<ch>:ID:SRNumber?",
+      "page": 404
+    },
+    {
+      "name": "PROBe<ch>:ID:SWVersion?",
+      "page": 405
+    },
+    {
+      "name": "PROBe<ch>:PMETer:RESults:COMMon?",
+      "page": 399
+    },
+    {
+      "name": "PROBe<ch>:PMETer:RESults:DIFFerential?",
+      "page": 400
+    },
+    {
+      "name": "PROBe<ch>:PMETer:RESults:NEGative?",
+      "page": 400
+    },
+    {
+      "name": "PROBe<ch>:PMETer:RESults:POSitive?",
+      "page": 400
+    },
+    {
+      "name": "PROBe<ch>:PMETer:RESults:SINGle?",
+      "page": 399
+    },
+    {
+      "name": "PROBe<ch>:PMETer:STATe",
+      "page": 399
+    },
+    {
+      "name": "PROBe<ch>:SETup:ACCoupling",
+      "page": 397
+    },
+    {
+      "name": "PROBe<ch>:SETup:ADVanced:AUDioverload",
+      "page": 401
+    },
+    {
+      "name": "PROBe<ch>:SETup:ADVanced:FILTer",
+      "page": 401
+    },
+    {
+      "name": "PROBe<ch>:SETup:ADVanced:PMToffset",
+      "page": 402
+    },
+    {
+      "name": "PROBe<ch>:SETup:ADVanced:RANGe",
+      "page": 401
+    },
+    {
+      "name": "PROBe<ch>:SETup:ATTenuation:DEFProbe",
+      "page": 393
+    },
+    {
+      "name": "PROBe<ch>:SETup:ATTenuation:MANual",
+      "page": 393
+    },
+    {
+      "name": "PROBe<ch>:SETup:ATTenuation:UNIT",
+      "page": 393
+    },
+    {
+      "name": "PROBe<ch>:SETup:ATTenuation[:AUTO]?",
+      "page": 392
+    },
+    {
+      "name": "PROBe<ch>:SETup:BANDwidth?",
+      "page": 394
+    },
+    {
+      "name": "PROBe<ch>:SETup:CAPacitance?",
+      "page": 405
+    },
+    {
+      "name": "PROBe<ch>:SETup:CMOFfset",
+      "page": 398
+    },
+    {
+      "name": "PROBe<ch>:SETup:DEGauss",
+      "page": 403
+    },
+    {
+      "name": "PROBe<ch>:SETup:DISPlaydiff",
+      "page": 398
+    },
+    {
+      "name": "PROBe<ch>:SETup:GAIN:AUTO?",
+      "page": 402
+    },
+    {
+      "name": "PROBe<ch>:SETup:GAIN:MANual",
+      "page": 402
+    },
+    {
+      "name": "PROBe<ch>:SETup:IMPedance?",
+      "page": 405
+    },
+    {
+      "name": "PROBe<ch>:SETup:MODE",
+      "page": 396
+    },
+    {
+      "name": "PROBe<ch>:SETup:NAME?",
+      "page": 395
+    },
+    {
+      "name": "PROBe<ch>:SETup:OFFSet:AZERo",
+      "page": 394
+    },
+    {
+      "name": "PROBe<ch>:SETup:OFFSet:STPRobe",
+      "page": 403
+    },
+    {
+      "name": "PROBe<ch>:SETup:OFFSet:TOMean",
+      "page": 394
+    },
+    {
+      "name": "PROBe<ch>:SETup:OFFSet:USEautozero",
+      "page": 395
+    },
+    {
+      "name": "PROBe<ch>:SETup:OFFSet:ZADJust",
+      "page": 403
+    },
+    {
+      "name": "PROBe<ch>:SETup:STATe?",
+      "page": 395
+    },
+    {
+      "name": "PROBe<ch>:SETup:TYPE?",
+      "page": 396
+    },
+    {
+      "name": "PROBe<ch>:SETup:ZAXV",
+      "page": 398
+    },
+    {
+      "name": "REFCurve<rc>:CLEar",
+      "page": 454
+    },
+    {
+      "name": "REFCurve<rc>:DATA:HEADer?",
+      "page": 461
+    },
+    {
+      "name": "REFCurve<rc>:DATA:STYPe?",
+      "page": 461
+    },
+    {
+      "name": "REFCurve<rc>:DATA[:VALues]?",
+      "page": 461
+    },
+    {
+      "name": "REFCurve<rc>:HMODe",
+      "page": 457
+    },
+    {
+      "name": "REFCurve<rc>:NAME",
+      "page": 454
+    },
+    {
+      "name": "REFCurve<rc>:OFFSet",
+      "page": 456
+    },
+    {
+      "name": "REFCurve<rc>:OPEN",
+      "page": 454
+    },
+    {
+      "name": "REFCurve<rc>:POSition",
+      "page": 457
+    },
+    {
+      "name": "REFCurve<rc>:RESCale:HORizontal:FACTor",
+      "page": 458
+    },
+    {
+      "name": "REFCurve<rc>:RESCale:HORizontal:OFFSet",
+      "page": 458
+    },
+    {
+      "name": "REFCurve<rc>:RESCale:HORizontal:STATe",
+      "page": 458
+    },
+    {
+      "name": "REFCurve<rc>:RESCale:VERTical:FACTor",
+      "page": 459
+    },
+    {
+      "name": "REFCurve<rc>:RESCale:VERTical:OFFSet",
+      "page": 459
+    },
+    {
+      "name": "REFCurve<rc>:RESCale:VERTical:STATe",
+      "page": 459
+    },
+    {
+      "name": "REFCurve<rc>:RESTore",
+      "page": 455
+    },
+    {
+      "name": "REFCurve<rc>:SAVE",
+      "page": 455
+    },
+    {
+      "name": "REFCurve<rc>:SCALe",
+      "page": 457
+    },
+    {
+      "name": "REFCurve<rc>:SOURce",
+      "page": 455
+    },
+    {
+      "name": "REFCurve<rc>:STATe",
+      "page": 455
+    },
+    {
+      "name": "REFCurve<rc>:TOORiginal",
+      "page": 460
+    },
+    {
+      "name": "REFCurve<rc>:UPDate",
+      "page": 456
+    },
+    {
+      "name": "REFCurve<rc>:VMODe",
+      "page": 460
+    },
+    {
+      "name": "REFLevel<rl>:ABSolute:HYSTeresis",
+      "page": 488
+    },
+    {
+      "name": "REFLevel<rl>:ABSolute:LLEVel",
+      "page": 489
+    },
+    {
+      "name": "REFLevel<rl>:ABSolute:MLEVel",
+      "page": 489
+    },
+    {
+      "name": "REFLevel<rl>:ABSolute:ULEVel",
+      "page": 489
+    },
+    {
+      "name": "REFLevel<rl>:LMODe",
+      "page": 488
+    },
+    {
+      "name": "REFLevel<rl>:RELative:HYSTeresis",
+      "page": 490
+    },
+    {
+      "name": "REFLevel<rl>:RELative:LOWer",
+      "page": 490
+    },
+    {
+      "name": "REFLevel<rl>:RELative:MIDDle",
+      "page": 490
+    },
+    {
+      "name": "REFLevel<rl>:RELative:MODE",
+      "page": 491
+    },
+    {
+      "name": "REFLevel<rl>:RELative:UPPer",
+      "page": 491
+    },
+    {
+      "name": "RUN",
+      "page": 377
+    },
+    {
+      "name": "RUNCont",
+      "page": 377
+    },
+    {
+      "name": "RUNSingle",
+      "page": 378
+    },
+    {
+      "name": "SAVeset:CONFig:PREView",
+      "page": 468
+    },
+    {
+      "name": "SBUS<m>:CAN:BITRate",
+      "page": 576
+    },
+    {
+      "name": "SBUS<m>:CAN:DATA:HYSTeresis",
+      "page": 576
+    },
+    {
+      "name": "SBUS<m>:CAN:DATA:SOURce",
+      "page": 577
+    },
+    {
+      "name": "SBUS<m>:CAN:DATA:THReshold",
+      "page": 577
+    },
+    {
+      "name": "SBUS<m>:CAN:FDATa:DBITrate",
+      "page": 577
+    },
+    {
+      "name": "SBUS<m>:CAN:FDATa:SAMPlepoint",
+      "page": 578
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:ACKState?",
+      "page": 586
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:ACKValue?",
+      "page": 586
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:BSEPosition?",
+      "page": 586
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:BYTE<o>:STATe?",
+      "page": 587
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:BYTE<o>:VALue?",
+      "page": 587
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:CSSTate?",
+      "page": 587
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:CSValue?",
+      "page": 588
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:DATA?",
+      "page": 588
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:DLCState?",
+      "page": 588
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:DLCValue?",
+      "page": 589
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:FERCause?",
+      "page": 589
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:IDSTate?",
+      "page": 589
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:IDTYpe?",
+      "page": 590
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:IDValue?",
+      "page": 590
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:NDBYtes?",
+      "page": 590
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:PDATa?",
+      "page": 591
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:SDATa?",
+      "page": 591
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:SDEXport?",
+      "page": 591
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:STANdard?",
+      "page": 592
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:STARt?",
+      "page": 592
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:STATus?",
+      "page": 592
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:STOP?",
+      "page": 593
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:STUFf?",
+      "page": 593
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:SYMBol?",
+      "page": 594
+    },
+    {
+      "name": "SBUS<m>:CAN:FRAMe<fr>:TYPE?",
+      "page": 594
+    },
+    {
+      "name": "SBUS<m>:CAN:TYPE",
+      "page": 578
+    },
+    {
+      "name": "SBUS<m>:EXPResult:DETail",
+      "page": 530
+    },
+    {
+      "name": "SBUS<m>:EXPResult:SAVE",
+      "page": 530
+    },
+    {
+      "name": "SBUS<m>:EXPResult:TIME",
+      "page": 530
+    },
+    {
+      "name": "SBUS<m>:FORMat",
+      "page": 529
+    },
+    {
+      "name": "SBUS<m>:I2C:FCOunt?",
+      "page": 557
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:BIT",
+      "page": 555
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:DMAX",
+      "page": 553
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:DMIN",
+      "page": 554
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:DOPerator",
+      "page": 554
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:ENABle",
+      "page": 553
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:ERENable",
+      "page": 554
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:ERRor<n>:ENABle",
+      "page": 554
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FIENable",
+      "page": 556
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:ENABle",
+      "page": 553
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:FLD<fl>:BIT",
+      "page": 555
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:FLD<fl>:DMAX",
+      "page": 553
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:FLD<fl>:DMIN",
+      "page": 554
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:FLD<fl>:DOPerator",
+      "page": 554
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:FLD<fl>:ENABle",
+      "page": 556
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:FLD<fl>:IMAX",
+      "page": 554
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:FLD<fl>:IMIN",
+      "page": 555
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRAMe<fr>:FLD<fl>:IOPerator",
+      "page": 555
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:FRENable",
+      "page": 553
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:IMAX",
+      "page": 554
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:IMIN",
+      "page": 555
+    },
+    {
+      "name": "SBUS<m>:I2C:FILTer:IOPerator",
+      "page": 555
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:AACCess?",
+      "page": 557
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:ACCess?",
+      "page": 557
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:ACOMplete?",
+      "page": 557
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:ADBStart?",
+      "page": 558
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:ADDRess?",
+      "page": 558
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:ADEVice?",
+      "page": 558
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:AMODe?",
+      "page": 559
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:ASTart?",
+      "page": 559
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:BCOunt?",
+      "page": 559
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:BITRate?",
+      "page": 559
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:BYTE<o>:ACCess?",
+      "page": 560
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:BYTE<o>:ACKStart?",
+      "page": 560
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:BYTE<o>:COMPlete?",
+      "page": 560
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:BYTE<o>:STARt?",
+      "page": 561
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:BYTE<o>:VALue?",
+      "page": 561
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:DATA?",
+      "page": 561
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:RWBStart?",
+      "page": 562
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:STARt?",
+      "page": 562
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:STATus?",
+      "page": 562
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:STOP?",
+      "page": 563
+    },
+    {
+      "name": "SBUS<m>:I2C:FRAMe<fr>:SYMBol?",
+      "page": 563
+    },
+    {
+      "name": "SBUS<m>:I2C:SCL:HYSTeresis",
+      "page": 547
+    },
+    {
+      "name": "SBUS<m>:I2C:SCL:SOURce",
+      "page": 547
+    },
+    {
+      "name": "SBUS<m>:I2C:SCL:THReshold",
+      "page": 547
+    },
+    {
+      "name": "SBUS<m>:I2C:SDA:HYSTeresis",
+      "page": 548
+    },
+    {
+      "name": "SBUS<m>:I2C:SDA:SOURce",
+      "page": 548
+    },
+    {
+      "name": "SBUS<m>:I2C:SDA:THReshold",
+      "page": 548
+    },
+    {
+      "name": "SBUS<m>:RESult",
+      "page": 529
+    },
+    {
+      "name": "SBUS<m>:SETReflevels",
+      "page": 530
+    },
+    {
+      "name": "SBUS<m>:SPI:BORDer",
+      "page": 531
+    },
+    {
+      "name": "SBUS<m>:SPI:CSELect:HYSTeresis",
+      "page": 532
+    },
+    {
+      "name": "SBUS<m>:SPI:CSELect:POLarity",
+      "page": 532
+    },
+    {
+      "name": "SBUS<m>:SPI:CSELect:SOURce",
+      "page": 533
+    },
+    {
+      "name": "SBUS<m>:SPI:CSELect:THReshold",
+      "page": 533
+    },
+    {
+      "name": "SBUS<m>:SPI:FCOunt?",
+      "page": 542
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:BIT",
+      "page": 537
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:DMAX",
+      "page": 537
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:DMIN",
+      "page": 538
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:DOPerator",
+      "page": 538
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:ENABle",
+      "page": 537
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:ERENable",
+      "page": 538
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:ERRor<n>:ENABle",
+      "page": 538
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FIENable",
+      "page": 539
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:ENABle",
+      "page": 539
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:FLD<fl>:BIT",
+      "page": 537
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:FLD<fl>:DMAX",
+      "page": 537
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:FLD<fl>:DMIN",
+      "page": 538
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:FLD<fl>:DOPerator",
+      "page": 538
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:FLD<fl>:ENABle",
+      "page": 539
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:FLD<fl>:IMAX",
+      "page": 539
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:FLD<fl>:IMIN",
+      "page": 540
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRAMe<fr>:FLD<fl>:IOPerator",
+      "page": 540
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:FRENable",
+      "page": 539
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:IMAX",
+      "page": 539
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:IMIN",
+      "page": 540
+    },
+    {
+      "name": "SBUS<m>:SPI:FILTer:IOPerator",
+      "page": 540
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:BITRate?",
+      "page": 542
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:COUNt?",
+      "page": 543
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:DATA?",
+      "page": 543
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:STARt?",
+      "page": 543
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:STATus?",
+      "page": 544
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:STOP?",
+      "page": 544
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:WCOunt?",
+      "page": 544
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:WORD<w>:FMISo?",
+      "page": 545
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:WORD<w>:FMOSi?",
+      "page": 545
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:WORD<w>:MISO?",
+      "page": 545
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:WORD<w>:MOSI?",
+      "page": 546
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:WORD<w>:STARt?",
+      "page": 546
+    },
+    {
+      "name": "SBUS<m>:SPI:FRAMe<fr>:WORD<w>:STOP?",
+      "page": 546
+    },
+    {
+      "name": "SBUS<m>:SPI:FRCondition",
+      "page": 532
+    },
+    {
+      "name": "SBUS<m>:SPI:MISO:HYSTeresis",
+      "page": 533
+    },
+    {
+      "name": "SBUS<m>:SPI:MISO:POLarity",
+      "page": 533
+    },
+    {
+      "name": "SBUS<m>:SPI:MISO:SOURce",
+      "page": 534
+    },
+    {
+      "name": "SBUS<m>:SPI:MISO:THReshold",
+      "page": 534
+    },
+    {
+      "name": "SBUS<m>:SPI:MOSI:HYSTeresis",
+      "page": 534
+    },
+    {
+      "name": "SBUS<m>:SPI:MOSI:POLarity",
+      "page": 534
+    },
+    {
+      "name": "SBUS<m>:SPI:MOSI:SOURce",
+      "page": 535
+    },
+    {
+      "name": "SBUS<m>:SPI:MOSI:THReshold",
+      "page": 535
+    },
+    {
+      "name": "SBUS<m>:SPI:SCLK:HYSTeresis",
+      "page": 535
+    },
+    {
+      "name": "SBUS<m>:SPI:SCLK:SOURce",
+      "page": 535
+    },
+    {
+      "name": "SBUS<m>:SPI:SCLK:THReshold",
+      "page": 536
+    },
+    {
+      "name": "SBUS<m>:SPI:TIMeout",
+      "page": 536
+    },
+    {
+      "name": "SBUS<m>:SPI:WSIZe",
+      "page": 536
+    },
+    {
+      "name": "SBUS<m>:THReshold",
+      "page": 529
+    },
+    {
+      "name": "SBUS<m>:TYPE",
+      "page": 528
+    },
+    {
+      "name": "SBUS<m>:UART:BITRate",
+      "page": 564
+    },
+    {
+      "name": "SBUS<m>:UART:EWORd",
+      "page": 564
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:BIT",
+      "page": 573
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:DMAX",
+      "page": 572
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:DMIN",
+      "page": 572
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:DOPerator",
+      "page": 572
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:ENABle",
+      "page": 570
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:ERENable",
+      "page": 571
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:ERRor<n>:ENABle",
+      "page": 571
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FIENable",
+      "page": 573
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:ENABle",
+      "page": 573
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:FLD<fl>:BIT",
+      "page": 573
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:FLD<fl>:DMAX",
+      "page": 572
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:FLD<fl>:DMIN",
+      "page": 572
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:FLD<fl>:DOPerator",
+      "page": 572
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:FLD<fl>:ENABle",
+      "page": 573
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:FLD<fl>:IMAX",
+      "page": 571
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:FLD<fl>:IMIN",
+      "page": 570
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRAMe<fr>:FLD<fl>:IOPerator",
+      "page": 571
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:FRENable",
+      "page": 573
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:IMAX",
+      "page": 571
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:IMIN",
+      "page": 570
+    },
+    {
+      "name": "SBUS<m>:UART:FILTer:IOPerator",
+      "page": 571
+    },
+    {
+      "name": "SBUS<m>:UART:PACKets",
+      "page": 565
+    },
+    {
+      "name": "SBUS<m>:UART:PARity",
+      "page": 565
+    },
+    {
+      "name": "SBUS<m>:UART:POLarity",
+      "page": 565
+    },
+    {
+      "name": "SBUS<m>:UART:RX:HYSTeresis",
+      "page": 566
+    },
+    {
+      "name": "SBUS<m>:UART:RX:SOURce",
+      "page": 566
+    },
+    {
+      "name": "SBUS<m>:UART:RX:THReshold",
+      "page": 566
+    },
+    {
+      "name": "SBUS<m>:UART:SBIT",
+      "page": 566
+    },
+    {
+      "name": "SBUS<m>:UART:SSIZe",
+      "page": 567
+    },
+    {
+      "name": "SBUS<m>:UART:TOUT",
+      "page": 567
+    },
+    {
+      "name": "SBUS<m>:UART:TX:HYSTeresis",
+      "page": 567
+    },
+    {
+      "name": "SBUS<m>:UART:TX:SOURce",
+      "page": 568
+    },
+    {
+      "name": "SBUS<m>:UART:TX:THReshold",
+      "page": 568
+    },
+    {
+      "name": "SBUS<m>:UART:WORD<w>:BITRate?",
+      "page": 574
+    },
+    {
+      "name": "SBUS<m>:UART:WORD<w>:COUNt?",
+      "page": 574
+    },
+    {
+      "name": "SBUS<m>:UART:WORD<w>:RXValue?",
+      "page": 574
+    },
+    {
+      "name": "SBUS<m>:UART:WORD<w>:SOURce?",
+      "page": 575
+    },
+    {
+      "name": "SBUS<m>:UART:WORD<w>:STARt?",
+      "page": 575
+    },
+    {
+      "name": "SBUS<m>:UART:WORD<w>:STATe?",
+      "page": 575
+    },
+    {
+      "name": "SBUS<m>:UART:WORD<w>:TXValue?",
+      "page": 576
+    },
+    {
+      "name": "SBUS<m>:ZCOupling",
+      "page": 529
+    },
+    {
+      "name": "SBUS<m>[:STATe]",
+      "page": 528
+    },
+    {
+      "name": "SENSe[:ROSCillator]:OUTPut[:ENABle]",
+      "page": 406
+    },
+    {
+      "name": "SENSe[:ROSCillator]:SOURce",
+      "page": 407
+    },
+    {
+      "name": "SINGle",
+      "page": 378
+    },
+    {
+      "name": "STATus:OPERation:CONDition?",
+      "page": 624
+    },
+    {
+      "name": "STATus:OPERation:ENABle",
+      "page": 624
+    },
+    {
+      "name": "STATus:OPERation[:EVENt]?",
+      "page": 624
+    },
+    {
+      "name": "STATus:PRESet",
+      "page": 623
+    },
+    {
+      "name": "STATus:QUEStionable:ADCState:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:ADCState:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:ADCState:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:ADCState:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:ADCState[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:COVerload:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:COVerload:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:COVerload:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:COVerload:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:COVerload[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:GOVerload:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:GOVerload:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:GOVerload:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:GOVerload:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:GOVerload[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:IMPRecise:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:IMPRecise:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:IMPRecise:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:IMPRecise:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:IMPRecise[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:LIMit:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:LIMit:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:LIMit:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:LIMit:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:LIMit[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:MARGin:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:MARGin:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:MARGin:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:MARGin:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:MARGin[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:PLL:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:PLL:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:PLL:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:PLL:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:PLL[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:PPSupply:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:PPSupply:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:PPSupply:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:PPSupply:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:PPSupply[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:TEMPerature:CONDition?",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:TEMPerature:ENABle",
+      "page": 627
+    },
+    {
+      "name": "STATus:QUEStionable:TEMPerature:NTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:TEMPerature:PTRansition",
+      "page": 628
+    },
+    {
+      "name": "STATus:QUEStionable:TEMPerature[:EVENt]?",
+      "page": 628
+    },
+    {
+      "name": "STOP",
+      "page": 378
+    },
+    {
+      "name": "SYSTem:APUP",
+      "page": 377
+    },
+    {
+      "name": "SYSTem:DATE",
+      "page": 363
+    },
+    {
+      "name": "SYSTem:DISPlay:MESSage:STATe",
+      "page": 362
+    },
+    {
+      "name": "SYSTem:DISPlay:MESSage[:TEXT]",
+      "page": 362
+    },
+    {
+      "name": "SYSTem:DISPlay:UPDate",
+      "page": 361
+    },
+    {
+      "name": "SYSTem:TIME",
+      "page": 363
+    },
+    {
+      "name": "TIMebase:DIVisions?",
+      "page": 379
+    },
+    {
+      "name": "TIMebase:HORizontal:POSition",
+      "page": 379
+    },
+    {
+      "name": "TIMebase:RANGe",
+      "page": 379
+    },
+    {
+      "name": "TIMebase:REFerence",
+      "page": 380
+    },
+    {
+      "name": "TIMebase:SCALe",
+      "page": 378
+    },
+    {
+      "name": "TRIGger:ACTions:OUT:DELay",
+      "page": 438
+    },
+    {
+      "name": "TRIGger:ACTions:OUT:PLENgth",
+      "page": 438
+    },
+    {
+      "name": "TRIGger:ACTions:OUT:POLarity",
+      "page": 438
+    },
+    {
+      "name": "TRIGger:ACTions:OUT:STATe",
+      "page": 437
+    },
+    {
+      "name": "TRIGger:ANEDge:COUPling",
+      "page": 412
+    },
+    {
+      "name": "TRIGger:ANEDge:CUToff:HIGHpass",
+      "page": 413
+    },
+    {
+      "name": "TRIGger:ANEDge:CUToff:LOWPass",
+      "page": 413
+    },
+    {
+      "name": "TRIGger:ANEDge:FILTer",
+      "page": 413
+    },
+    {
+      "name": "TRIGger:ANEDge:LEVel",
+      "page": 412
+    },
+    {
+      "name": "TRIGger:ANEDge:NREJect",
+      "page": 414
+    },
+    {
+      "name": "TRIGger:CAN:ACKerror",
+      "page": 579
+    },
+    {
+      "name": "TRIGger:CAN:BITSterror",
+      "page": 580
+    },
+    {
+      "name": "TRIGger:CAN:BORDer",
+      "page": 580
+    },
+    {
+      "name": "TRIGger:CAN:CRCerror",
+      "page": 580
+    },
+    {
+      "name": "TRIGger:CAN:DCONdition",
+      "page": 581
+    },
+    {
+      "name": "TRIGger:CAN:DLC",
+      "page": 581
+    },
+    {
+      "name": "TRIGger:CAN:DLCCondition",
+      "page": 581
+    },
+    {
+      "name": "TRIGger:CAN:DMIN",
+      "page": 582
+    },
+    {
+      "name": "TRIGger:CAN:FDATa:BRS",
+      "page": 582
+    },
+    {
+      "name": "TRIGger:CAN:FDATa:DPOSition",
+      "page": 582
+    },
+    {
+      "name": "TRIGger:CAN:FDATa:ESI",
+      "page": 582
+    },
+    {
+      "name": "TRIGger:CAN:FDATa:FDF",
+      "page": 583
+    },
+    {
+      "name": "TRIGger:CAN:FDATa:SCERror",
+      "page": 583
+    },
+    {
+      "name": "TRIGger:CAN:FDATa:STANdard",
+      "page": 583
+    },
+    {
+      "name": "TRIGger:CAN:FORMerror",
+      "page": 583
+    },
+    {
+      "name": "TRIGger:CAN:FTYPe",
+      "page": 584
+    },
+    {
+      "name": "TRIGger:CAN:ICONdition",
+      "page": 584
+    },
+    {
+      "name": "TRIGger:CAN:IMAX",
+      "page": 584
+    },
+    {
+      "name": "TRIGger:CAN:IMIN",
+      "page": 585
+    },
+    {
+      "name": "TRIGger:CAN:ITYPe",
+      "page": 585
+    },
+    {
+      "name": "TRIGger:CAN:TYPE",
+      "page": 579
+    },
+    {
+      "name": "TRIGger:EVENt<m>:EDGE:SLOPe",
+      "page": 412
+    },
+    {
+      "name": "TRIGger:EVENt<m>:GLITch:POLarity",
+      "page": 414
+    },
+    {
+      "name": "TRIGger:EVENt<m>:GLITch:RANGe",
+      "page": 414
+    },
+    {
+      "name": "TRIGger:EVENt<m>:GLITch:WIDTh",
+      "page": 415
+    },
+    {
+      "name": "TRIGger:EVENt<m>:INTerval:DELTa",
+      "page": 422
+    },
+    {
+      "name": "TRIGger:EVENt<m>:INTerval:RANGe",
+      "page": 423
+    },
+    {
+      "name": "TRIGger:EVENt<m>:INTerval:SLOPe",
+      "page": 423
+    },
+    {
+      "name": "TRIGger:EVENt<m>:INTerval:WIDTh",
+      "page": 424
+    },
+    {
+      "name": "TRIGger:EVENt<m>:LEVel<n>:RUNT:LOWer",
+      "page": 416
+    },
+    {
+      "name": "TRIGger:EVENt<m>:LEVel<n>:RUNT:UPPer",
+      "page": 417
+    },
+    {
+      "name": "TRIGger:EVENt<m>:LEVel<n>:SLEW:LOWer",
+      "page": 424
+    },
+    {
+      "name": "TRIGger:EVENt<m>:LEVel<n>:SLEW:UPPer",
+      "page": 425
+    },
+    {
+      "name": "TRIGger:EVENt<m>:LEVel<n>:WINDow:LOWer",
+      "page": 419
+    },
+    {
+      "name": "TRIGger:EVENt<m>:LEVel<n>:WINDow:UPPer",
+      "page": 419
+    },
+    {
+      "name": "TRIGger:EVENt<m>:LEVel<n>[:VALue]",
+      "page": 408
+    },
+    {
+      "name": "TRIGger:EVENt<m>:PATTern:QUALify:ANALog:CHAN<n>:HLX",
+      "page": 430
+    },
+    {
+      "name": "TRIGger:EVENt<m>:PATTern:QUALify:LOGic",
+      "page": 430
+    },
+    {
+      "name": "TRIGger:EVENt<m>:RUNT:DELTa",
+      "page": 417
+    },
+    {
+      "name": "TRIGger:EVENt<m>:RUNT:POLarity",
+      "page": 418
+    },
+    {
+      "name": "TRIGger:EVENt<m>:RUNT:RANGe",
+      "page": 418
+    },
+    {
+      "name": "TRIGger:EVENt<m>:RUNT:WIDTh",
+      "page": 418
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SETHold:CSOurce:EDGE",
+      "page": 427
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SETHold:CSOurce:LEVel",
+      "page": 427
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SETHold:CSOurce[:VALue]",
+      "page": 427
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SETHold:HTIMe",
+      "page": 428
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SETHold:STIMe",
+      "page": 428
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SLEW:DELTa",
+      "page": 425
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SLEW:RANGe",
+      "page": 425
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SLEW:RATE",
+      "page": 426
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SLEW:SLOPe",
+      "page": 426
+    },
+    {
+      "name": "TRIGger:EVENt<m>:SOURce",
+      "page": 409
+    },
+    {
+      "name": "TRIGger:EVENt<m>:STATe:QUALify:ANALog:CHAN<n>:HLX",
+      "page": 429
+    },
+    {
+      "name": "TRIGger:EVENt<m>:STATe:QUALify:LOGic",
+      "page": 429
+    },
+    {
+      "name": "TRIGger:EVENt<m>:STATe:SLOPe",
+      "page": 429
+    },
+    {
+      "name": "TRIGger:EVENt<m>:TIMeout:RANGe",
+      "page": 422
+    },
+    {
+      "name": "TRIGger:EVENt<m>:TIMeout:TIME",
+      "page": 422
+    },
+    {
+      "name": "TRIGger:EVENt<m>:TYPE",
+      "page": 408
+    },
+    {
+      "name": "TRIGger:EVENt<m>:WIDTh:DELTa",
+      "page": 415
+    },
+    {
+      "name": "TRIGger:EVENt<m>:WIDTh:POLarity",
+      "page": 415
+    },
+    {
+      "name": "TRIGger:EVENt<m>:WIDTh:RANGe",
+      "page": 416
+    },
+    {
+      "name": "TRIGger:EVENt<m>:WIDTh:WIDTh",
+      "page": 416
+    },
+    {
+      "name": "TRIGger:EVENt<m>:WINDow:DELTa",
+      "page": 420
+    },
+    {
+      "name": "TRIGger:EVENt<m>:WINDow:RANGe",
+      "page": 420
+    },
+    {
+      "name": "TRIGger:EVENt<m>:WINDow:TIME",
+      "page": 420
+    },
+    {
+      "name": "TRIGger:EVENt<m>:WINDow:WIDTh",
+      "page": 421
+    },
+    {
+      "name": "TRIGger:FILTermode",
+      "page": 436
+    },
+    {
+      "name": "TRIGger:FINDlevel",
+      "page": 409
+    },
+    {
+      "name": "TRIGger:FORCe",
+      "page": 431
+    },
+    {
+      "name": "TRIGger:HOLDoff:AUTotime?",
+      "page": 432
+    },
+    {
+      "name": "TRIGger:HOLDoff:EVENts",
+      "page": 433
+    },
+    {
+      "name": "TRIGger:HOLDoff:MAX",
+      "page": 433
+    },
+    {
+      "name": "TRIGger:HOLDoff:MIN",
+      "page": 433
+    },
+    {
+      "name": "TRIGger:HOLDoff:MODE",
+      "page": 431
+    },
+    {
+      "name": "TRIGger:HOLDoff:SCALing",
+      "page": 432
+    },
+    {
+      "name": "TRIGger:HOLDoff:TIME",
+      "page": 434
+    },
+    {
+      "name": "TRIGger:I2C:ACCess",
+      "page": 549
+    },
+    {
+      "name": "TRIGger:I2C:ACONdition",
+      "page": 550
+    },
+    {
+      "name": "TRIGger:I2C:ADDRess",
+      "page": 550
+    },
+    {
+      "name": "TRIGger:I2C:ADDTo",
+      "page": 550
+    },
+    {
+      "name": "TRIGger:I2C:ADNack",
+      "page": 550
+    },
+    {
+      "name": "TRIGger:I2C:AMODe",
+      "page": 551
+    },
+    {
+      "name": "TRIGger:I2C:DCONdition",
+      "page": 551
+    },
+    {
+      "name": "TRIGger:I2C:DMIN",
+      "page": 551
+    },
+    {
+      "name": "TRIGger:I2C:DPOSition",
+      "page": 551
+    },
+    {
+      "name": "TRIGger:I2C:DRNack",
+      "page": 551
+    },
+    {
+      "name": "TRIGger:I2C:DWNack",
+      "page": 552
+    },
+    {
+      "name": "TRIGger:I2C:TYPE",
+      "page": 549
+    },
+    {
+      "name": "TRIGger:LFReject",
+      "page": 437
+    },
+    {
+      "name": "TRIGger:MEVents:AEVents",
+      "page": 410
+    },
+    {
+      "name": "TRIGger:MEVents:MODE",
+      "page": 408
+    },
+    {
+      "name": "TRIGger:MEVents:SEQuence<se>:COUNt",
+      "page": 410
+    },
+    {
+      "name": "TRIGger:MEVents:SEQuence<se>:DELay",
+      "page": 410
+    },
+    {
+      "name": "TRIGger:MEVents:SEQuence<se>:RESet:EVENt",
+      "page": 411
+    },
+    {
+      "name": "TRIGger:MEVents:SEQuence<se>:RESet:TIMeout:TIME",
+      "page": 411
+    },
+    {
+      "name": "TRIGger:MEVents:SEQuence<se>:RESet:TIMeout[:ENABle]",
+      "page": 411
+    },
+    {
+      "name": "TRIGger:MODE",
+      "page": 431
+    },
+    {
+      "name": "TRIGger:NOISe<m>:ABSolute",
+      "page": 434
+    },
+    {
+      "name": "TRIGger:NOISe<m>:EFFective?",
+      "page": 434
+    },
+    {
+      "name": "TRIGger:NOISe<m>:MODE",
+      "page": 435
+    },
+    {
+      "name": "TRIGger:NOISe<m>:PERDivision",
+      "page": 435
+    },
+    {
+      "name": "TRIGger:NOISe<m>:RELative",
+      "page": 435
+    },
+    {
+      "name": "TRIGger:NOISe<m>[:STATe]",
+      "page": 435
+    },
+    {
+      "name": "TRIGger:RFReject",
+      "page": 437
+    },
+    {
+      "name": "TRIGger:SPI:DMINpattern",
+      "page": 541
+    },
+    {
+      "name": "TRIGger:SPI:DPOSition",
+      "page": 541
+    },
+    {
+      "name": "TRIGger:SPI:FCONdition",
+      "page": 541
+    },
+    {
+      "name": "TRIGger:SPI:PALignment",
+      "page": 542
+    },
+    {
+      "name": "TRIGger:SPI:TYPE",
+      "page": 541
+    },
+    {
+      "name": "TRIGger:UART:DATA",
+      "page": 568
+    },
+    {
+      "name": "TRIGger:UART:DPOSition",
+      "page": 569
+    },
+    {
+      "name": "TRIGger:UART:FCONdition",
+      "page": 569
+    },
+    {
+      "name": "TRIGger:UART:OPERator",
+      "page": 569
+    },
+    {
+      "name": "TRIGger:UART:SOURce",
+      "page": 569
+    },
+    {
+      "name": "TRIGger:UART:TYPE",
+      "page": 569
+    },
+    {
+      "name": "WGENerator<wg>:ACOPy",
+      "page": 606
+    },
+    {
+      "name": "WGENerator<wg>:ARBGen:NAME",
+      "page": 618
+    },
+    {
+      "name": "WGENerator<wg>:ARBGen:OPEN",
+      "page": 618
+    },
+    {
+      "name": "WGENerator<wg>:ARBGen:RUNMode",
+      "page": 618
+    },
+    {
+      "name": "WGENerator<wg>:ARBGen:SAMPles?",
+      "page": 619
+    },
+    {
+      "name": "WGENerator<wg>:ARBGen:SELect",
+      "page": 619
+    },
+    {
+      "name": "WGENerator<wg>:ARBGen:SRATe",
+      "page": 619
+    },
+    {
+      "name": "WGENerator<wg>:ARBGen[:SOURce]",
+      "page": 620
+    },
+    {
+      "name": "WGENerator<wg>:COUPling:ALL",
+      "page": 621
+    },
+    {
+      "name": "WGENerator<wg>:COUPling:AMPLitude",
+      "page": 622
+    },
+    {
+      "name": "WGENerator<wg>:COUPling:PHASeshift",
+      "page": 622
+    },
+    {
+      "name": "WGENerator<wg>:COUPling[:FREQuency]",
+      "page": 622
+    },
+    {
+      "name": "WGENerator<wg>:FREQuency",
+      "page": 607
+    },
+    {
+      "name": "WGENerator<wg>:FUNCtion:PULSe[:WIDTh]",
+      "page": 607
+    },
+    {
+      "name": "WGENerator<wg>:FUNCtion:RAMP[:SYMMetry]",
+      "page": 607
+    },
+    {
+      "name": "WGENerator<wg>:FUNCtion[:SELect]",
+      "page": 607
+    },
+    {
+      "name": "WGENerator<wg>:FUNCtion[:SQUare]:DCYCle",
+      "page": 608
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:AM:DCYCle",
+      "page": 611
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:AM:DEPTh",
+      "page": 612
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:AM:FREQuency",
+      "page": 612
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:AM:SYMMetry",
+      "page": 612
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:AM[:FUNCtion]",
+      "page": 612
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:CARRier:FREQuency",
+      "page": 613
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:CARRier:PERiod",
+      "page": 613
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:FM:DCYCle",
+      "page": 613
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:FM:DEViation",
+      "page": 614
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:FM:FREQuency",
+      "page": 614
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:FM:SYMMetry",
+      "page": 614
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:FM[:FUNCtion]",
+      "page": 614
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:FSK:FONE",
+      "page": 615
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:FSK:FTWO",
+      "page": 615
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:FSK[:RATE]",
+      "page": 615
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:NDCLevel",
+      "page": 615
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:NLABsolute?",
+      "page": 616
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:NLPCent",
+      "page": 616
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:PWM:DCYCle",
+      "page": 616
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:PWM:DEPTh",
+      "page": 616
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:PWM:FREQuency",
+      "page": 617
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:PWM:SYMMetry",
+      "page": 617
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:PWM[:FUNCtion]",
+      "page": 617
+    },
+    {
+      "name": "WGENerator<wg>:MODulation:TYPE",
+      "page": 618
+    },
+    {
+      "name": "WGENerator<wg>:OUTPut[:LOAD]",
+      "page": 608
+    },
+    {
+      "name": "WGENerator<wg>:PERiod",
+      "page": 608
+    },
+    {
+      "name": "WGENerator<wg>:PRESet",
+      "page": 609
+    },
+    {
+      "name": "WGENerator<wg>:SWEep:FEND",
+      "page": 621
+    },
+    {
+      "name": "WGENerator<wg>:SWEep:FSTart",
+      "page": 620
+    },
+    {
+      "name": "WGENerator<wg>:SWEep:TIME",
+      "page": 621
+    },
+    {
+      "name": "WGENerator<wg>:SWEep:TYPE",
+      "page": 620
+    },
+    {
+      "name": "WGENerator<wg>:SWEep[:STATe]",
+      "page": 620
+    },
+    {
+      "name": "WGENerator<wg>:VOLTage:DCLevel",
+      "page": 609
+    },
+    {
+      "name": "WGENerator<wg>:VOLTage:HIGH",
+      "page": 609
+    },
+    {
+      "name": "WGENerator<wg>:VOLTage:INVersion",
+      "page": 609
+    },
+    {
+      "name": "WGENerator<wg>:VOLTage:LOW",
+      "page": 610
+    },
+    {
+      "name": "WGENerator<wg>:VOLTage:OFFSet",
+      "page": 610
+    },
+    {
+      "name": "WGENerator<wg>:VOLTage[:VPP]",
+      "page": 610
+    },
+    {
+      "name": "WGENerator<wg>[:ENABle]",
+      "page": 610
+    }
+  ],
+  "subsystems": {
+    "ACQuire": 28,
+    "AUToscale": 1,
+    "CALCulate": 50,
+    "CALibration": 3,
+    "CHANnel<ch>": 28,
+    "CHANnel<ch>[": 2,
+    "COMMON": 12,
+    "CURSor<cu>": 31,
+    "DIAGnostic": 1,
+    "DIGital<m>": 9,
+    "DISPlay": 15,
+    "EXPort": 13,
+    "FORMat": 1,
+    "FORMat[": 1,
+    "FRANalysis": 50,
+    "GATE<m>": 10,
+    "GENerator": 1,
+    "HCOPy": 9,
+    "HDEFinition": 3,
+    "LAYout<m>": 39,
+    "LAYout<m>[": 1,
+    "MEASurement<mg>": 49,
+    "MEASurement<mg>[": 1,
+    "MMEMory": 27,
+    "PBUS<m>": 18,
+    "PROBe<ch>": 37,
+    "REFCurve<rc>": 23,
+    "REFLevel<rl>": 10,
+    "RUN": 1,
+    "RUNCont": 1,
+    "RUNSingle": 1,
+    "SAVeset": 1,
+    "SBUS<m>": 186,
+    "SBUS<m>[": 1,
+    "SENSe[": 2,
+    "SINGle": 1,
+    "STATus": 49,
+    "STOP": 1,
+    "SYSTem": 6,
+    "TIMebase": 5,
+    "TRIGger": 125,
+    "WGENerator<wg>": 55,
+    "WGENerator<wg>[": 1
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "instrument": "R&S MXO 4",
+  "manual": "R&S_MXO_4-Series_Oscilloscope_UserManual_en_03.pdf",
+  "conventions": {
+    "default_usage": "set and query unless stated otherwise",
+    "sync": "Use *OPC or *WAI after overlapping/async commands",
+    "reset": "*RST restores defaults noted per command; does not reset waveform generator (use WGENerator<wg>:PRESet)",
+    "short_form": "Manual examples use short headers (e.g. CHAN1:STAT); full form is CHANnel<ch>:STATe"
+  },
+  "connection": {
+    "hislip": "TCPIP::<host>::hislip0[,<port>][::INSTR]",
+    "vxi11": "TCPIP::<host>[::inst0][::INSTR]",
+    "start_remote": "Send any command, or VXI-11 &GTR to leave local mode",
+    "default_socket_port": 5025
+  },
+  "parameters": {
+    "waveform": {
+      "C1": "channel 1 (CHAN1)",
+      "C2": "channel 2",
+      "C3": "channel 3",
+      "C4": "channel 4",
+      "M1-M8": "math waveforms",
+      "R1-R4": "reference waveforms"
+    },
+    "slope": [
+      "POSitive",
+      "NEGative",
+      "EITHer"
+    ],
+    "polarity": [
+      "POSitive",
+      "NEGative",
+      "EITHer"
+    ]
+  },
+  "recipes": {
+    "identify": {
+      "title": "Identify instrument",
+      "steps": [
+        "*IDN?"
+      ]
+    },
+    "reset": {
+      "title": "Reset to defaults",
+      "steps": [
+        "*RST",
+        "*OPC?"
+      ]
+    },
+    "continuous_acquire": {
+      "title": "Start continuous acquisition",
+      "steps": [
+        "RUN"
+      ]
+    },
+    "single_acquire": {
+      "title": "Single acquisition",
+      "steps": [
+        "ACQuire:COUNt 1",
+        "RUNSingle",
+        "*OPC?"
+      ]
+    },
+    "stop_acquire": {
+      "title": "Stop acquisition",
+      "steps": [
+        "STOP"
+      ]
+    },
+    "enable_channel": {
+      "title": "Enable analog channel n (1-4)",
+      "steps": [
+        "CHAN{n}:STAT 1"
+      ],
+      "notes": "Short form; equivalent to CHANnel<ch>:STATe ON"
+    },
+    "vertical_setup": {
+      "title": "Channel vertical scale and offset",
+      "steps": [
+        "CHAN{n}:SCAL {volts_per_div}",
+        "CHAN{n}:OFFS {offset_v}"
+      ]
+    },
+    "horizontal_setup": {
+      "title": "Timebase scale and position",
+      "steps": [
+        "TIM:SCAL {seconds_per_div}",
+        "TIM:HOR:POS {position_s}"
+      ]
+    },
+    "ascii_waveform": {
+      "title": "Configure ASCII waveform transfer",
+      "steps": [
+        "FORM:DATA ASC,0",
+        "CHAN{n}:DATA:HEAD?",
+        "CHAN{n}:DATA?"
+      ]
+    },
+    "binary_waveform": {
+      "title": "Configure binary REAL32 waveform transfer",
+      "steps": [
+        "FORMat:DATA REAL,32",
+        "FORMat:BORDer LSBFirst",
+        "EXPort:WAVeform:INCXvalues OFF",
+        "CHANnel{n}:WAVeform1:DATA:HEADer?",
+        "CHANnel{n}:WAVeform1:DATA:VALues?"
+      ]
+    },
+    "capture_once": {
+      "title": "Single-shot binary capture (all enabled channels)",
+      "steps": [
+        "STOP",
+        "FORMat:DATA REAL,32",
+        "FORMat:BORDer LSBFirst",
+        "EXPort:WAVeform:INCXvalues OFF",
+        "RUNsingle",
+        "*OPC?",
+        "CHANnel{n}:WAVeform1:DATA:HEADer?",
+        "CHANnel{n}:WAVeform1:DATA:VALues?"
+      ],
+      "notes": "Apply vertical/acquire/horizontal/trigger setup first via apply_setup recipe"
+    },
+    "apply_setup": {
+      "title": "Expert-ordered setup (channels, acquire, horizontal, trigger, format)",
+      "steps": [
+        "STOP",
+        "CHANnel{n}:STATe {on}",
+        "CHANnel{n}:SCALe {volts_per_div}",
+        "ACQuire:TYPE SAMPle",
+        "ACQuire:POINts:MODE MANual",
+        "ACQuire:POINts {points}",
+        "ACQuire:SRATe:MODE MANual",
+        "ACQuire:SRATe {sample_rate}",
+        "TIMebase:SCALe {seconds_per_div}",
+        "TIMebase:REFerence {ref_pct}",
+        "TRIGger:MODE NORMal",
+        "TRIGger:EVENt1:SOURce CHANnel{n}",
+        "FORMat:DATA REAL,32",
+        "FORMat:BORDer LSBFirst",
+        "*OPC?"
+      ]
+    },
+    "connect_preamble": {
+      "title": "Connect preamble with error drain",
+      "steps": [
+        "*CLS",
+        "SYSTem:DISPlay:UPDate ON",
+        "*IDN?",
+        "*OPT?",
+        "SYSTem:ERRor:NEXT?"
+      ]
+    },
+    "autoscale": {
+      "title": "Autoscale all enabled channels",
+      "steps": [
+        "AUToscale"
+      ]
+    },
+    "trigger_edge": {
+      "title": "Edge trigger on channel n",
+      "steps": [
+        "TRIG:MODE NORM",
+        "TRIG:EVEN1:SOUR C{n}",
+        "TRIG:EVEN1:TYPE EDGE",
+        "TRIG:EVEN1:LEV1 {level_v}"
+      ]
+    },
+    "smartgrid_zoom": {
+      "title": "SmartGrid layout with zoom (manual 17.4.1)",
+      "steps": [
+        "CHAN1:STAT 1",
+        "CHAN2:STAT 1",
+        "CHAN3:STAT 1",
+        "LAY:DIAG2:ENAB 1",
+        "LAY:DIAG2:SOUR C2",
+        "LAY:DIAG3:ENAB 1",
+        "LAY:DIAG3:SOUR C3",
+        "LAY:NODE2:ENAB 1",
+        "LAY:NODE2:CHIL1:CONT:TYPE DIAG",
+        "LAY:NODE2:CHIL1:CONT:ID 2",
+        "LAY:NODE2:CHIL2:CONT:TYPE DIAG",
+        "LAY:NODE2:CHIL2:CONT:ID 3",
+        "LAY:NODE2:STYP VERT",
+        "LAY:NODE1:CHIL2:CONT:TYPE NODE",
+        "LAY:NODE1:CHIL2:CONT:ID 2",
+        "LAY:NODE1:STYP HOR",
+        "LAY:ZOOM:ENAB 1",
+        "LAY:ZOOM:SOUR 3"
+      ]
+    }
+  },
+  "subsystems": {
+    "COMMON": "IEEE 488.2 common commands (*IDN?, *RST, *OPC, ...)",
+    "ACQuire": "Acquisition mode, points, sample rate, history",
+    "CHANnel<ch>": "Vertical channel setup (scale, offset, coupling)",
+    "TIMebase": "Horizontal timebase",
+    "TRIGger": "Trigger system and holdoff",
+    "FORMat": "Waveform/result data encoding for remote transfer",
+    "RUN": "Acquisition run/stop control",
+    "CALCulate": "Math and spectrum analysis",
+    "MEASurement<mg>": "Automatic measurements",
+    "MMEMory": "File and settings storage on instrument",
+    "STATus": "SCPI status reporting registers"
+  }
+}
